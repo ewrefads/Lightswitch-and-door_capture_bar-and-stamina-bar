@@ -15,7 +15,7 @@ class MYPROJECT4_API AMyCharacter : public ACharacter
 public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Character | Health");
-	int health = 100;
+	float health = 1;
 	// Sets default values for this character's properties
 	AMyCharacter();
 
